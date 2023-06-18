@@ -3,7 +3,7 @@ translator = Translator()
 from gtts import gTTS
 from telebot import types
 import telebot
-bot = telebot.TeleBot('6191694817:AAGW7Q40wPTqsufZqRr9UJm1OVYHtkVy23w')
+bot = telebot.TeleBot('токен')
 @bot.message_handler(content_types=['text'])
 def start(message):
     if message.text == '/start':
